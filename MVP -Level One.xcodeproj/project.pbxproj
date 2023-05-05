@@ -20,6 +20,7 @@
 		9477C8A72A03967600022F4A /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8A62A03967600022F4A /* MainPresenter.swift */; };
 		9477C8AD2A03AA8F00022F4A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9477C8AC2A03AA8F00022F4A /* MainViewController.xib */; };
 		9477C8AF2A03ABB300022F4A /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8AE2A03ABB300022F4A /* ModuleBuilder.swift */; };
+		9477C8B42A04F3FF00022F4A /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8B32A04F3FF00022F4A /* MainPresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9477C8A62A03967600022F4A /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		9477C8AC2A03AA8F00022F4A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		9477C8AE2A03ABB300022F4A /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		9477C8B32A04F3FF00022F4A /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		9477C88A2A03959700022F4A /* MVP -Level OneTests */ = {
 			isa = PBXGroup;
 			children = (
+				9477C8B22A04F3C000022F4A /* TestMainModule */,
 				9477C88B2A03959700022F4A /* MVP__Level_OneTests.swift */,
 			);
 			path = "MVP -Level OneTests";
@@ -169,6 +172,14 @@
 				9477C8A62A03967600022F4A /* MainPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9477C8B22A04F3C000022F4A /* TestMainModule */ = {
+			isa = PBXGroup;
+			children = (
+				9477C8B32A04F3FF00022F4A /* MainPresenterTest.swift */,
+			);
+			path = TestMainModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9477C88C2A03959700022F4A /* MVP__Level_OneTests.swift in Sources */,
+				9477C8B42A04F3FF00022F4A /* MainPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
