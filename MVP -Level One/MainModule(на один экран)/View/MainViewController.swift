@@ -55,7 +55,7 @@ extension MainViewController: MainViewProtocol {
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let comment = presenter.comments?[indexPath.row]
-        let detilViewController = ModelBuilder.createDetailModule(comment: comment)
-        navigationController?.pushViewController(detilViewController, animated: true)
+        presenter.tapOneTheComment(comment: comment)
+        
     }
 }
