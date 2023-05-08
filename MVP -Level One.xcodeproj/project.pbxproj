@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		942AA5832A07CF7500391E7E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942AA5822A07CF7500391E7E /* Router.swift */; };
+		942AA5852A09184B00391E7E /* RouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942AA5842A09184B00391E7E /* RouterTest.swift */; };
 		9477C8752A03959600022F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8742A03959600022F4A /* AppDelegate.swift */; };
 		9477C8772A03959600022F4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8762A03959600022F4A /* SceneDelegate.swift */; };
 		9477C8792A03959600022F4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9477C8782A03959600022F4A /* MainViewController.swift */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		942AA5822A07CF7500391E7E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		942AA5842A09184B00391E7E /* RouterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTest.swift; sourceTree = "<group>"; };
 		9477C8712A03959600022F4A /* MVP -Level One.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP -Level One.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9477C8742A03959600022F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9477C8762A03959600022F4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				9477C8B32A04F3FF00022F4A /* MainPresenterTest.swift */,
+				942AA5842A09184B00391E7E /* RouterTest.swift */,
 			);
 			path = TestMainModule;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9477C88C2A03959700022F4A /* MVP__Level_OneTests.swift in Sources */,
+				942AA5852A09184B00391E7E /* RouterTest.swift in Sources */,
 				9477C8B42A04F3FF00022F4A /* MainPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
